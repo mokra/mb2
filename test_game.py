@@ -11,7 +11,10 @@ import os
 
 # Add the current directory to the path so we can import game
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-tests conlsoe
+domeanexample()
+time.sleep(10)
+dsadasdsa
+
 # Mock pygame for testing
 pygame.init = Mock()
 pygame.display = Mock()
